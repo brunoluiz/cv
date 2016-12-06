@@ -86,3 +86,8 @@ gulp.task('watch', ['default'], () => {
   gulp.watch(htmlSrcPath, ['copy-html']);
   gulp.watch(imgSrcPath,  ['copy-img']);
 });
+
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe(ghPages());
+});
