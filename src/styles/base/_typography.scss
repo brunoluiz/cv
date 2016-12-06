@@ -3,5 +3,32 @@
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family:  $text-font-stack;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font-stack;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+address {
+  font-style: normal;
+}
+
+p, address, span, li, a {
+  font-size: .85rem;
+  font-weight: 300;
 }

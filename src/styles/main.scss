@@ -1,6 +1,6 @@
 @charset 'utf-8';
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
-@import 'https://fonts.googleapis.com/css?family=Assistant:300,700|Catamaran:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Assistant:300,400,700|Catamaran:300,400,700';
 
 @import '../../node_modules/foundation-sites/scss/foundation';
 @include foundation-global-styles;
@@ -34,7 +34,8 @@
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/xp';
 
 // 6. Page-specific styles
 @import

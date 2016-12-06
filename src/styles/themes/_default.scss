@@ -2,3 +2,42 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
+
+li {
+  list-style: none;
+}
+
+address {
+  margin-bottom: 1rem;
+}
+
+.sidebar-left {
+  text-align: right;
+}
+
+.sidebar-right {
+  margin-top: 1rem;
+  text-align: left;
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  article {
+    @extend .row;
+  }
+
+  .date {
+    @extend .columns;
+    @extend .large-1;
+
+    font-size: 80%;
+    margin-top: .25rem;
+    font-weight: 600;
+  }
+
+  content {
+    @extend .columns;
+    @extend .large-11;
+  }
+}
