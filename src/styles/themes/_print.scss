@@ -1,4 +1,15 @@
 @media print {
+  .xp {
+    .fill {
+      color: #000 !important;
+      -webkit-print-color-adjust: exact;
+    }
+
+    .empty {
+      color: #eee !important;
+      -webkit-print-color-adjust: exact;
+    }
+  }
   h1 {
     font-size: 1.75rem;
   }

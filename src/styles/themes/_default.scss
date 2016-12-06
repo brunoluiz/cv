@@ -12,10 +12,24 @@ address {
 }
 
 .sidebar-left {
+  @extend .columns;
+  @extend .large-3;
+  @extend .medium-3;
+  @extend .small-12;
+
   text-align: right;
+
+  /* Medium and up */
+  @media screen and (max-width: 39.9375em) {
+    text-align: left;
+  }
 }
 
 .sidebar-right {
+  @extend .columns;
+  @extend .large-9;
+  @extend .medium-9;
+  @extend .small-12;
   margin-top: 1rem;
   text-align: left;
 
@@ -39,9 +53,5 @@ address {
   content {
     @extend .columns;
     @extend .large-11;
-  }
-
-  ul {
-    margin-left: 0;
   }
 }
