@@ -11,6 +11,7 @@ import browserify  from 'browserify';
 import babelify    from 'babelify';
 import source      from 'vinyl-source-stream';
 import buffer      from 'vinyl-buffer';
+import ghPages     from 'gulp-gh-pages';
 
 const scssSrcPath = './src/styles/**/*.scss';
 const jsSrcPath   = './src/js/**/*.{js,jsx}';
