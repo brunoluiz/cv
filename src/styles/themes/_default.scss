@@ -40,4 +40,8 @@ address {
     @extend .columns;
     @extend .large-11;
   }
+
+  ul {
+    margin-left: 0;
+  }
 }
