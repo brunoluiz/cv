@@ -1,4 +1,8 @@
 @media print {
+  li {
+    line-height: 1.5;
+  }
+  
   .xp {
     .fill {
       color: #000 !important;
