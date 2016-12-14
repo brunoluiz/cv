@@ -61,9 +61,18 @@ address {
     margin-top: .25rem;
     font-weight: 600;
   }
+  
+  .date-without-title {
+    @extend .date;
+    margin-top: 0;
+  }
 
   content {
     @extend .columns;
     @extend .large-11;
+
+    .only-p {
+
+    }
   }
 }
