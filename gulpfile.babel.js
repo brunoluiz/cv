@@ -66,12 +66,18 @@ gulp.task('copy-data', () => gulp
   .pipe(gulp.dest(assetsPath + '/data'))
 );
 
+gulp.task('copy-fonts', () => gulp
+  .src('node_modules/font-awesome/fonts/*')
+  .pipe(gulp.dest(assetsPath + '/fonts'))
+);
+
 gulp.task('default', [
   'build-scss',
   'build-js',
   'copy-img',
   'copy-html',
-  'copy-data'
+  'copy-data',
+  'copy-fonts'
 ]);
 
 // Watch task

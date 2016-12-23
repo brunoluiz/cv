@@ -1,5 +1,5 @@
 @charset 'utf-8';
-@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+// @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 @import 'https://fonts.googleapis.com/css?family=Assistant:300,400,700|Catamaran:300,400,700';
 
 @import '../../node_modules/foundation-sites/scss/foundation';
@@ -9,6 +9,8 @@
 @include foundation-button;
 @include foundation-forms;
 @include foundation-pagination;
+
+@import '../../node_modules/font-awesome/scss/font-awesome';
 
 // 1. Configuration and helpers
 @import
