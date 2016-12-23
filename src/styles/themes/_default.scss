@@ -15,7 +15,7 @@ address {
 .sidebar-left {
   @extend .columns;
   @extend .large-3;
-  @extend .medium-3;
+  @extend .medium-4;
   @extend .small-12;
 
   text-align: right;
@@ -40,7 +40,7 @@ address {
 .sidebar-right {
   @extend .columns;
   @extend .large-9;
-  @extend .medium-9;
+  @extend .medium-8;
   @extend .small-12;
   margin-top: 1rem;
   text-align: left;
