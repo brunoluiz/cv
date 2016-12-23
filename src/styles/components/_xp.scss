@@ -1,7 +1,7 @@
 .xp {
-  .fa {
-    padding-left: 2px;
-    font-size: 1rem;
+  i {
+    padding-left: 5px;
+    font-size: .9rem;
 
     @media screen and (max-width: 39.9375em) {
       padding-right: 5px;
@@ -10,17 +10,31 @@
       float: left;
     }
   }
-  .fill {
-    color: $colour-3;
-  }
 
-  .empty {
-    color: #eee;
-  }
-
+  // Mobile version
   @media screen and (max-width: 39.9375em) {
+    i {
+      padding-right: 10px;
+      padding-left: 0px;
+      padding-top: .20rem;
+      float: left;
+    }
+
     li {
       font-size: 1.15rem;
+    }
+  }
+
+  // Print version
+  @media print {
+    i {
+      padding-left: 2px;
+      font-size: 85%;
+    }
+
+    li {
+      font-size: .75rem;
+      line-height: 1.7;
     }
   }
 }

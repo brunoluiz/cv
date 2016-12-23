@@ -20,20 +20,8 @@ address {
 
   text-align: right;
 
-  .fa {
-    padding-left: 5px;
-    font-size: .9rem;
-  }
-
-  /* Medium and up */
   @media screen and (max-width: 39.9375em) {
     text-align: left;
-    .fa {
-      padding-right: 10px;
-      padding-left: 0px;
-      padding-top: .20rem;
-      float: left;
-    }
   }
 }
 

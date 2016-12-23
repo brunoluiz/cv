@@ -3,17 +3,6 @@
     line-height: 1.5;
   }
 
-  .xp {
-    .fill {
-      color: #000 !important;
-      -webkit-print-color-adjust: exact;
-    }
-
-    .empty {
-      color: #eee !important;
-      -webkit-print-color-adjust: exact;
-    }
-  }
   h1 {
     font-size: 1.75rem;
   }
@@ -36,15 +25,6 @@
 
   .sidebar-right content {
     padding-left: 20px;
-  }
-
-  .xp {
-    li {
-      font-size: .75rem;
-    }
-    .fa {
-      font-size: 70%;
-    }
   }
 
   a[href]:after {
