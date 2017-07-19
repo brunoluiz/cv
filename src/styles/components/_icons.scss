@@ -3,6 +3,11 @@
   @extend .fa-globe;
 }
 
+.i-medium {
+  @extend .fa;
+  @extend .fa-medium;
+}
+
 .i-github {
   @extend .fa;
   @extend .fa-github;
