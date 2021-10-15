@@ -1,3 +1,3 @@
-# Bruno Luiz CV
+# Bruno Luiz da Silva CV
 
-This repo is just the source code of my CV. If you want to access it, go to http://brunoluiz.net/cv
+Source code of my CV. Available at http://brunoluiz.net/cv
