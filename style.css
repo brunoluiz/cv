@@ -5,8 +5,7 @@ body {
   margin: 20px auto;
   font-size: 1em;
   font-weight: 300;
-  font-family: 'Catamaran', 'Open Sans', 'Helvetica Neue Light',
-    'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Catamaran', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 h1,
@@ -15,8 +14,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Assistant', 'Catamaran', 'Open Sans', 'Helvetica Neue Light',
-    'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Assistant', 'Catamaran', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial',
+    sans-serif;
   font-weight: 400;
 }
 
